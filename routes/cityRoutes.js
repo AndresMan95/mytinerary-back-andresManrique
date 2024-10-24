@@ -3,7 +3,9 @@ import {
   createCity, 
   getAllCities, 
   getCityById, 
-  loadCities 
+  loadCities,
+  deleteCitiesWithoutImages,
+  deleteCitiesWithInvalidPhotos
 } from '../controllers/cityController.js';
 
 const router = express.Router();
@@ -19,5 +21,12 @@ router.get('/', getAllCities);
 
 // Obtener una ciudad específica por ID (GET)
 router.get('/:id', getCityById);
+
+// Nueva ruta para eliminar ciudades con imágenes no válidas (DELETE)
+router.delete('/remove-invalid', deleteCitiesWithoutImages);
+
+// Definir la ruta para eliminar ciudades con imágenes inválidas
+router.delete('/delete-invalid-photos', deleteCitiesWithInvalidPhotos);
+
 
 export default router; // Exportar el router

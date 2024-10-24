@@ -18,7 +18,7 @@ const run = async () => {
 const citiesData = [
     {
         "name": "New York",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Times_Square_%28163475808%29.jpeg",
+        "photo": "https://images.pexels.com/photos/771881/pexels-photo-771881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "country": "USA",
         "continent": "North America",
         "description": "The largest city in the United States.",
@@ -26,7 +26,7 @@ const citiesData = [
     },
     {
         "name": "Tokyo",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tokyo_Skyline_from_Tokyo_Tower_2013.jpg",
+        "photo": "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "country": "Japan",
         "continent": "Asia",
         "description": "The bustling capital city of Japan.",
@@ -34,7 +34,7 @@ const citiesData = [
     },
     {
         "name": "Paris",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg",
+        "photo": "https://images.pexels.com/photos/1530259/pexels-photo-1530259.jpeg?auto=compress&cs=tinysrgb&w=600",
         "country": "France",
         "continent": "Europe",
         "description": "The capital of France, known for its art and culture.",
@@ -42,7 +42,7 @@ const citiesData = [
     },
     {
         "name": "Buenos Aires",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Plaza_de_Mayo_-_Buenos_Aires_-_Argentina.jpg",
+        "photo": "https://images.pexels.com/photos/19558951/pexels-photo-19558951/free-photo-of-ciudad-puesta-de-sol-calle-rascacielos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "country": "Argentina",
         "continent": "South America",
         "description": "The capital of Argentina, famous for tango.",
@@ -50,7 +50,7 @@ const citiesData = [
     },
     {
         "name": "Sydney",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sydney_Opera_House_-_Dec_2008.jpg",
+        "photo": "https://images.unsplash.com/photo-1549180030-48bf079fb38a?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "country": "Australia",
         "continent": "Oceania",
         "description": "Australia's largest city, known for its Opera House.",
@@ -58,7 +58,7 @@ const citiesData = [
     },
     {
         "name": "Cairo",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cairo_city_view_from_Cairo_Tower_-_Feb_2007.jpg",
+        "photo": "https://plus.unsplash.com/premium_photo-1661891622579-bee76e28c304?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2Fpcm98ZW58MHx8MHx8fDA%3D",
         "country": "Egypt",
         "continent": "Africa",
         "description": "The capital of Egypt, famous for the pyramids.",
@@ -66,7 +66,7 @@ const citiesData = [
     },
     {
         "name": "London",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall.jpg",
+        "photo": "https://images.unsplash.com/photo-1526129318478-62ed807ebdf9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "country": "United Kingdom",
         "continent": "Europe",
         "description": "The capital of the United Kingdom, known for Big Ben.",
@@ -74,7 +74,7 @@ const citiesData = [
     },
     {
         "name": "Berlin",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/0/02/Berlin_Gendarmenmarkt_Panorama.jpg",
+        "photo": "https://images.pexels.com/photos/1128416/pexels-photo-1128416.jpeg?auto=compress&cs=tinysrgb&w=600",
         "country": "Germany",
         "continent": "Europe",
         "description": "Germany's capital, a city rich in history.",
@@ -82,7 +82,7 @@ const citiesData = [
     },
     {
         "name": "Dubai",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Dubai_Marina_in_the_morning.jpg",
+        "photo": "https://images.pexels.com/photos/162031/dubai-tower-arab-khalifa-162031.jpeg?auto=compress&cs=tinysrgb&w=600",
         "country": "United Arab Emirates",
         "continent": "Asia",
         "description": "A global business hub in the Middle East.",
@@ -90,7 +90,7 @@ const citiesData = [
     },
     {
         "name": "Moscow",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/3/37/Moscow_June_2016-7a.jpg",
+        "photo": "https://images.pexels.com/photos/236294/pexels-photo-236294.jpeg?auto=compress&cs=tinysrgb&w=600",
         "country": "Russia",
         "continent": "Europe",
         "description": "The capital of Russia, famous for the Kremlin.",
@@ -98,7 +98,7 @@ const citiesData = [
     },
     {
         "name": "São Paulo",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/3/3b/S%C3%A3o_Paulo_City_by_Night.jpg",
+        "photo": "https://images.pexels.com/photos/97906/pexels-photo-97906.jpeg?auto=compress&cs=tinysrgb&w=600",
         "country": "Brazil",
         "continent": "South America",
         "description": "The largest city in Brazil and South America.",
@@ -106,7 +106,7 @@ const citiesData = [
     },
     {
         "name": "Seoul",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Seoul_Skyline.jpg",
+        "photo": "https://images.pexels.com/photos/237211/pexels-photo-237211.jpeg?auto=compress&cs=tinysrgb&w=600",
         "country": "South Korea",
         "continent": "Asia",
         "description": "The capital of South Korea, a technology-driven city.",
@@ -114,7 +114,7 @@ const citiesData = [
     },
     {
         "name": "Mexico City",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Ciudad_de_M%C3%A9xico_DF.JPG",
+        "photo": "https://images.pexels.com/photos/3551805/pexels-photo-3551805.jpeg?auto=compress&cs=tinysrgb&w=600",
         "country": "Mexico",
         "continent": "North America",
         "description": "The capital of Mexico, rich in culture and history.",
@@ -122,7 +122,7 @@ const citiesData = [
     },
     {
         "name": "Cape Town",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Cape_Town_Skyline.jpg",
+        "photo": "https://images.pexels.com/photos/259447/pexels-photo-259447.jpeg?auto=compress&cs=tinysrgb&w=600",
         "country": "South Africa",
         "continent": "Africa",
         "description": "A coastal city known for its harbor and Table Mountain.",
@@ -130,7 +130,7 @@ const citiesData = [
     },
     {
         "name": "Madrid",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Plaza_Mayor_de_Madrid_06.jpg",
+        "photo": "https://images.pexels.com/photos/3254729/pexels-photo-3254729.jpeg?auto=compress&cs=tinysrgb&w=600",
         "country": "Spain",
         "continent": "Europe",
         "description": "The capital of Spain, famous for its royal palace and museums.",
