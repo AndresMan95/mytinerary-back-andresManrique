@@ -3,6 +3,8 @@ import dotenv from 'dotenv';
 import connectDB from './config/database.js'; // Importar la función de conexión
 import cityRoutes from './routes/cityRoutes.js'; // Importar las rutas de la ciudad
 import cors from 'cors'; // Importar CORS
+import Itinerary from './models/Itinerary.js';
+import ItineraryRoutes from './routes/itineraryRoutes.js';
 
 dotenv.config(); // Cargar las variables de entorno
 
@@ -11,7 +13,7 @@ connectDB(); // Conectar a la base de datos
 app.use(cors()); // Habilitar CORS
 app.use(express.json());
 app.use('/api/cities', cityRoutes); // Definir las rutas
-
+app.use('/api/itineraries', ItineraryRoutes);
 
 const PORT = process.env.PORT || 8080; // Puerto del servidor
 
