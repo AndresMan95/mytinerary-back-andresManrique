@@ -9,9 +9,11 @@ import passport from 'passport'; // Importar Passport
 import './config/passportGoogle.js'; // Configuración de Passport para Google
 
 dotenv.config(); // Cargar las variables de entorno
-
+//console.log('Environment Variables:', process.env);
 const app = express();
 connectDB(); // Conectar a la base de datos
+
+
 
 // Middleware
 app.use(cors()); // Habilitar CORS
